@@ -1,0 +1,32 @@
+{
+  "name": "frontend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "format": "prettier --write .",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "tsc": "tsc -b"
+  },
+  "dependencies": {
+    "@gitbeaker/rest": "^40.1.2",
+    "@iconify-json/heroicons": "^1.1.21",
+    "@iconify-json/mdi": "^1.1.67",
+    "@nuxt/ui": "^2.17.0",
+    "@nuxtjs/i18n": "^8.3.1",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "ky": "^1.5.0",
+    "nuxt": "^3.12.4",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@nuxtjs/color-mode": "^3.4.2",
+    "prettier": "^3.3.2",
+    "vue-i18n": "^9.13.1",
+    "zod": "^3.23.8"
+  }
+}
