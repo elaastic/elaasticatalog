@@ -2,19 +2,19 @@
 
 ## 🧑‍💻 Setup
 
-Installer les dépendances nécessaires avec :
+Install the necessary dependencies with:
 
 ```
 npm i
 ```
 
-Pour lancer le projet en mode développement :
+To start the project in development mode:
 
 ```
 npm run dev
 ```
 
-Pour `seed` la base de données et tester avec des sujets `elaastic` :
+To seed the database and test with `elaastic` subjects:
 
 ```
 node ace db:seed

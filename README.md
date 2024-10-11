@@ -2,21 +2,21 @@
 
 ## 💻 Configuration
 
-Après avoir récupéré le projet localement, vous pouvez installer les dépendances nécessaires avec :
+After cloning the project locally, you can install the necessary dependencies with:
 
 ```
 npm i
 ```
 
-Pour créer les `containers Docker` :
+To create the `Docker containers`:
 
 ```
 docker compose up -d
 ```
 
-Des `.env` sont nécessaires au fonctionnement de l'application (pour le `front` ET le `back`). Des `.env.example` sont disponibles avec les valeurs attendues.
+`.env` files are required for the application to function (for both `frontend` and `backend`). `.env.example` files are available with the expected values.
 
-Lorsque ces différentes étapes sont finies, vous pouvez lancer le projet en exécutant (dans `/frontend` et `/backend`) la commande :
+Once these steps are completed, you can start the project by running the following command (in both `/frontend` and `/backend`):
 
 ```
 npm run dev

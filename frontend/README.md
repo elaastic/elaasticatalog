@@ -2,13 +2,13 @@
 
 ## 🧑‍💻 Setup
 
-Installer les dépendances nécessaires avec :
+Install the necessary dependencies with:
 
 ```
 npm i
 ```
 
-Pour lancer le projet en mode développement :
+To start the project in development mode:
 
 ```
 npm run dev
